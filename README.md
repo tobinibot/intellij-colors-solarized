@@ -52,7 +52,7 @@ for which the syntax highlighting has been adapted to the Solarized color scheme
 	</tr>
 	<tr>
 		<td>Groovy</td>
-		<td align="center">No</td>
+		<td align="center"><b>Yes</b></td>
 	</tr>
 	<tr>
 		<td>Scala</td>
@@ -114,6 +114,14 @@ for which the syntax highlighting has been adapted to the Solarized color scheme
 		<td>File Status</td>
 		<td align="center">No</td>
 	</tr>
+	<tr>
+		<td>Google Go</td>
+		<td align="center"><b>Yes</b></td>
+	</tr>
+	<tr>
+		<td>Coffeescript</td>
+		<td align="center"><i>Only Solarized Dark</i></td>
+	</tr>
 </table>
 
 
@@ -133,9 +141,16 @@ color themes.
 ### Option 2: Manual installation
 
 1.  Copy `Solarized Dark.xml` and `Solarized Light.xml` to your IntelliJ IDEA preferences
-color directory.  
-On Mac OS X this is typically located in `~/Library/Preferences/IntelliJIdea10/colors` or `~/Library/Preferences/IntelliJIdea10CE/colors` (for the Community Edition).  
-On Windows it is in `Documents and Settings/<user>/.IntelliJIdea10/config/colors`.
+    color directory. The directory varies, depending on which JetBrains IDE you are using. It
+    is typically in:
+
+    *Mac OS X*
+    * `~/Library/Preferences/IntelliJIdea10/colors` (IntelliJ IDEA)
+    * `~/Library/Preferences/IntelliJIdea10CE/colors` (IntelliJ IDEA Community Edition),
+    * `~/Library/Preferences/WebIDE10/colors` (WebIDE or PHPStorm).
+
+    *Windows*
+    * `Documents and Settings/<user>/.IntelliJIdea10/config/colors` (IntelliJ IDEA)
         
 2. Restart IntelliJ IDEA
 
